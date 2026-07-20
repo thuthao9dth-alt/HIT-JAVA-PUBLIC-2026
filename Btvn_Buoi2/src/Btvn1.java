@@ -19,11 +19,5 @@ public class Btvn1 {
 
         System.out.print("Khoảng cách giữa hai điểm A và B là: ");
         System.out.printf("%.2f", d);
-
-        // Viết code tính toán khoảng cách ở đây
-        // ...
-
-        // In kết quả có định dạng
-        // System.out.printf("...", ...);
     }
 }
