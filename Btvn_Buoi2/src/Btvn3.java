@@ -17,17 +17,17 @@ public class Btvn3 {
                 Upper = true;
             }
         }
-       if(!Digit){
-           System.out.println("Mật khẩu phải có tối thiểu nhất 1 chữ số");
-       }
-       if(!Upper){
-           System.out.println("Mật khẩu phải chứa tối thiểu 1 chữ cái viết hoa");
-       }
+        if(!Digit){
+            System.out.println("Mật khẩu phải có tối thiểu nhất 1 chữ số");
+        }
+        if(!Upper){
+            System.out.println("Mật khẩu phải chứa tối thiểu 1 chữ cái viết hoa");
+        }
         if (length < 8) {
             System.out.println("Mật khẩu phải có độ da tối thiểu là 8 ký tự");
         }
         if(length >= 8 && Digit && Upper) {
-           System.out.println("Mật khẩu hợp lệ");
+            System.out.println("Mật khẩu hợp lệ");
         }
         else{
             System.out.println("Mật khẩu không hợp lệ!");

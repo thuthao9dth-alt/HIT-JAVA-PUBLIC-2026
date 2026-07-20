@@ -1,5 +1,5 @@
 import java.util.Scanner;
- public class Btvn4 {
+public class Btvn4 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap so lương hoc sinh: ");
@@ -22,11 +22,11 @@ import java.util.Scanner;
         }
         return max;
     }
-     public static double calculateAverage(double[] arr) {
-         double sum = 0;
-         for (int i = 0; i < arr.length; i++) {
-             sum =sum + arr[i];
-         }
+    public static double calculateAverage(double[] arr) {
+        double sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum =sum + arr[i];
+        }
         return sum / arr.length;
     }
 
@@ -39,5 +39,5 @@ import java.util.Scanner;
         }
         return count;
 
- }
+    }
 }
